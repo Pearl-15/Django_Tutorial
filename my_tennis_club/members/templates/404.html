@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html>
-<title>Wrong address</title>
-<body>
+{% extends "master.html" %}
 
+{% block title %}
+    Error Page
+{% endblock title %}
+
+{% block content %}
 <h1>Ooops!</h1>
 
 <h2>I cannot find the file you requested!</h2>
+{% endblock %}
 
-</body>
-</html>
+
